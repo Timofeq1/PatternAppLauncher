@@ -1,6 +1,6 @@
 ﻿#region Hello and Welcome to the code of PatternApp!
 
-// I tried to write a readable and renewable code, applying all my C# knowledge.
+// In this project I tried to write a readable code, applying all my C# knowledge.
 // Methods and variables named using Mixed_Case_With_Underscores
 // Default methods named using the "WindowsFormsContainerName" + "Method_Name"
 // Hope you like my code!
@@ -8,7 +8,7 @@
 
 #region Привет и Добро пожаловать в код приложения PatternApp!
 
-// Я стремился написать читаемый и вознобновляемый код, применяя все мои знанния С#.
+// Я стремился написать читаемый код, применяя все мои знанния С#.
 // Для именования методов и переменных использовалась Смешанная_Нотация_С_Подчеркиваниями
 // Стандартные методы именовались по формуле "WindowsFormsНазваниеКонтейнера" + "Имя_Метода"
 // Надеюсь вам понравится мой код!
@@ -374,7 +374,7 @@ namespace PatternAppLauncher
         #region Painting Settings
 
         #region Pen settings
-        // Pen radius.
+        // Pen radius (sector width).
         private void toolStripTextBox1_Pen_Radius_TextChanged(object sender, EventArgs e)
         {
             Brush_Radius = Text_Box_Input_Checker(toolStripTextBox1_Pen_Radius, 10000, 1);
